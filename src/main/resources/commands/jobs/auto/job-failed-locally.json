@@ -1,0 +1,7 @@
+{
+  "name": "job-failed-locally",
+  "triggers": [],
+  "primaryReply": "@$person, your job $job (“$description”) on S$sauron just failed locally.",
+  "additionalReplies": [],
+  "channel": "#sauronx-jobs"
+}

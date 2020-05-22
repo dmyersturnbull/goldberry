@@ -1,0 +1,12 @@
+{
+  "name": "prioritize-job",
+  "triggers": [
+	"prioritize (?@<hash>[a-z0-9]{12})",
+	"re\\-?prioritize (?@<hash>[a-z0-9]{12})",
+	"do (?@<hash>[a-z0-9]{12})",
+	"do (?@<hash>[a-z0-9]{12}) now",
+	"do (?@<hash>[a-z0-9]{12}) first"
+  ],
+  "primaryReply": "@$!user, I’ll process $job (“$description”) first.",
+  "additionalReplies": []
+}

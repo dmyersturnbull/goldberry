@@ -1,0 +1,12 @@
+{
+  "name": "hello",
+  "triggers": [
+	"search for commands",
+	"list commands by search",
+	"find commands",
+	"find all commands"
+  ],
+  "replies": [
+	{"name": "ok", "pattern": "Here’s a list of commands that may or not be available:\n$commands"}
+  ]
+}

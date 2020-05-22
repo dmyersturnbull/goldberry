@@ -1,0 +1,6 @@
+{
+  "name": "jobs-by-user",
+  "triggers": [],
+  "primaryReply": "@$!user, $user is running $n jobs: $jobs",
+  "additionalReplies": []
+}

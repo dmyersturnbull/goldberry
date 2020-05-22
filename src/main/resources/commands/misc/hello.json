@@ -1,0 +1,13 @@
+{
+  "name": "hello",
+  "triggers": [
+	"(?<phrase>(?:hello)|(?:hi)|(?:hey)|(?:hola)|(?:yo)|(?:sup)),? (?<offensivelabel>(?:gal)|(?:girl)|(?:chick)|(?:woman)|(?:lady)|(?:honey)|(?:hun))",
+	"(?<phrase>(?:hello)|(?:hi)|(?:hey)|(?:hola)|(?:yo)|(?:sup)),? (?<veryoffensivelabel>(?:honey)|(?:hun)|(?:babe)|(?:baby))",
+	"(?<phrase>(?:hello)|(?:hi)|(?:hey)|(?:hola)|(?:yo)|(?:sup)).*"
+  ],
+  "replies": [
+	{"name": "ok", "pattern": "hello"},
+	{"name": "offended", "pattern": "I’m an immortal river spirit, not a “$offensivelabel”."},
+	{"name": "badly_offended", "pattern": "Please address me correctly next time <@$!user>, or I might not respond."}
+  ]
+}

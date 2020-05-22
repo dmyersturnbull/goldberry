@@ -1,0 +1,11 @@
+{
+  "name": "locate-job",
+  "triggers": [
+	"(?:(?:find)|(?:check)|(?:look ?up)|(?:locate)|(?:where is)) (?<hash>[a-z0-9]{12})"
+  ],
+  "replies": [
+	{"name": "ok", "pattern": "$hash (“$description”) was `$status` at $update_time from Sauron$sauron."},
+	{"name": "unused", "pattern": "$hash (“$description”) has not been used."},
+	{"name": "not_found", "pattern": "$hash (“$description”) was `$status` at $update_time."}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "job-failed-remotely",
+  "triggers": [],
+  "primaryReply": "@douglas, @$person’s job $job (“$description”) on S$sauron just failed on insertion.",
+  "additionalReplies": [],
+  "channel": "#sauronx-jobs"
+}

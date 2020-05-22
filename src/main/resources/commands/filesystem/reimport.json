@@ -1,0 +1,11 @@
+{
+  "name": "reimport",
+  "triggers": [
+	"(?:re)?import (?<hash>[a-z0-9]{12}) with (?<newhash>[a-z0-9]{12})",
+	"reload (?<hash>[a-z0-9]{12}) with (?<newhash>[a-z0-9]{12})",
+	"replace (?<hash>[a-z0-9]{12}) with (?<newhash>[a-z0-9]{12})"
+  ],
+  "replies": [
+	{"name": "ok", "pattern": "Will reimport $hash after replacing it with $newhash"}
+  ]
+}

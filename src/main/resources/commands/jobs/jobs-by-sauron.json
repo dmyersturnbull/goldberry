@@ -1,0 +1,13 @@
+{
+  "name": "jobs-by-sauron",
+  "triggers": [
+	"what's running on (?<$sauron>[0-9])",
+	"what's (?<$sauron>[0-9]) running",
+	"what's on (?<$sauron>[0-9])",
+	"is (?<$sauron>[0-9]) being used",
+	"is (?<$sauron>[0-9]) running",
+	"is (?<$sauron>[0-9]) on"
+  ],
+  "primaryReply": "@$!user, Sauron $sauron is running $job.",
+  "additionalReplies": []
+}

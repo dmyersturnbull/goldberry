@@ -1,0 +1,7 @@
+{
+  "name": "job-finished",
+  "triggers": ["(?:tell me)|(?:say)(?: that)? (?<hash>[a-z0-9]{12}) (?:completed)|(?:finished)|(?:is available)"],
+  "replies": [
+    {"name": "ok", "pattern": "Your job $hash (“$description”) on S$sauron is now available in Valar."}
+  ]
+}

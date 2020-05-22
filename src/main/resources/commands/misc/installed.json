@@ -1,0 +1,14 @@
+{
+  "name": "hello",
+  "triggers": [
+	"list(?: the)? commands",
+	"what commands are installed",
+	"what commands are available",
+	"what commands are there",
+	"what can you do",
+	"what can I ask you"
+  ],
+  "replies": [
+	{"name": "ok", "pattern": "The currently installed commands are:\n$commands"}
+  ]
+}

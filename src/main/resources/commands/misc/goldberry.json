@@ -1,0 +1,14 @@
+{
+  "name": "goldberry",
+  "triggers": [
+	"who are you",
+    "what are you",
+    "what do you do",
+    "what can you do",
+    "what is your purpose",
+    "what are you for"
+  ],
+  "replies": [
+    {"name": "ok", "pattern": "I’m a river spirit and the River-woman’s daughter who oversees cross-cutting concerns for the Kokel Lab. I command a Mesos cluster on Valinor, regulate the insertion of data, and mediate communications between humans and the Valar through Slack."}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "jobs-in-queue",
+  "triggers": [
+	"what jobs are in the queue",
+	"what jobs are you inserting",
+	"what jobs are being inserted",
+	"what are you inserting",
+	"what's being inserted",
+	"what's in the queue",
+	"what jobs are queued",
+	"what's queued",
+	"which jobs are queued",
+	"which jobs are in the queue"
+  ],
+  "primaryReply": "@$!user, I’ll insert these jobs, from first to last: $queue",
+  "additionalReplies": []
+}

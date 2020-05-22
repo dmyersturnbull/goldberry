@@ -1,0 +1,14 @@
+{
+  "name": "rebuild-index",
+  "triggers": [
+	"reindex",
+	"rebuild index",
+	"rebuild the index",
+	"build the index",
+	"update the index",
+	"regenerate the index"
+  ],
+  "replies": [
+	{"name": "ok", "pattern": "Will rebuild the index for SauronX and legacy data."}
+  ]
+}

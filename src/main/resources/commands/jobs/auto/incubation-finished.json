@@ -1,0 +1,7 @@
+{
+  "name": "incubation-failed",
+  "triggers": [],
+  "primaryReply": "@$person, your plate in S$sauron finished incubating.",
+  "additionalReplies": [],
+  "channel": "#sauronx-jobs"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "error-log",
+  "triggers": [
+	"what happened to (?@<hash>[a-z0-9]{12})",
+	"where did (?@<hash>[a-z0-9]{12}) go",
+	"what was the error for (?@<hash>[a-z0-9]{12})",
+	"why did (?@<hash>[a-z0-9]{12}) fail",
+	"why did (?@<hash>[a-z0-9]{12}) error",
+	"what was wrong with (?@<hash>[a-z0-9]{12})"
+  ],
+  "primaryReply": "@$!user, The most recent import error for $hash is: $error",
+  "additionalReplies": []
+}

@@ -1,0 +1,7 @@
+{
+  "name": "not-understood",
+  "triggers": [".*"],
+  "replies": [
+	{"name": "ok", "pattern": "I didn’t understand. Try asking me a different way."}
+  ]
+}
